@@ -1,8 +1,12 @@
 # DC Engine driver ( Sterownik prędkości silnika DC )
->Zadaniem poniższej pracy podyplomowej jest projekt urządzenia, które pośredniczy
-pomiędzy silnikiem prądu stałego a człowiekiem oraz pozwala na jego sterowanie poprzez
-przyciski. Założeniem przy budowie poniższego sterownika jest spełnianie dwóch funkcji:
 
+> DC Engine driver is a post graduate thesis done for AGH Univerisity of Science and Technology.
+
+## Purpose of project
+The purose of project was to use ECAD, EAGLE to design a circuit alodng with
+PCBA, then wirte a C program for Atmega32 to dirive a DC Enginge.
+
+### Block diagram
 ![Block diagram](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/bloc_diagram.PNG)
 
 ![Schematics](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/schematic.PNG)
