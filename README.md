@@ -3,6 +3,8 @@
 pomiędzy silnikiem prądu stałego a człowiekiem oraz pozwala na jego sterowanie poprzez
 przyciski. Założeniem przy budowie poniższego sterownika jest spełnianie dwóch funkcji:
 
+![Block diagram](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/bloc_diagram.PNG)
+
 ![Schematics](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/schematic.PNG)
 
 ![PCBA view](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/PCBA_1.PNG)
