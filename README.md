@@ -1,9 +1,10 @@
 # DC Engine driver ( Sterownik prędkości silnika DC )
 
-> DC Engine driver is a post graduate thesis done for AGH Univerisity of Science and Technology.
+> DC Engine driver is a [post graduate thesis](https://github.com/LuczynskiDar/SilnikDC/blob/master/Praca%20Podyplomowa%20-%20Sterownik%20Silnika%20-%20Dariusz%20%C5%81uczy%C5%84ski.pdf) done for AGH Univerisity of Science and Technology.
 
 ## Purpose of project
-The purose of project was to use ECAD, EAGLE to design a circuit alodng with
+
+The purose of project was to use ECAD, EAGLE to design a circuit analog with
 PCBA, then wirte a C program for Atmega32 to dirive a DC Enginge.
 
 ### Block diagram
