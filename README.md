@@ -8,22 +8,22 @@ The purose of project was to use ECAD, EAGLE to design a circuit analog with
 PCBA, then wirte a C program for Atmega32 to dirive a DC Enginge.
 
 ### Design approach
-- For the project purposes will be used an mocro's internal clock, 
-instead of using more reliable external one.
-- zostanie wykorzystany wewnętrzny zegar mikroprocesora, bez posiłkowania się
-zewnętrznym rezonatorem kwarcowym;
-- sterowanie będzie obywało się za pomocą czterech przycisków, a będzie realizować
-inkrementację i dekrementację sygnału PWM, a także zmianę wyjścia, na którym jest
-on podawany;
+
+- For the project purposes will be used an mocro's internal clock,instead of using more reliable external crystal.
+- Drivig the engine will be done on the basis of 4 switches, 2 for changing engine directions (Left/Right),
+  which is actually changing micro's GPIO  and 2 responsible for incrementing and decrementing PWM signal.
 - do sterowania nie zostanie wykorzystany mechanizm przerwań;
 - zostanie wykorzystany tryb Fast PWM;
 - oprogramowanie zostanie napisane w języku C;
 
 ### Block diagram
+
 ![Block diagram](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/bloc_diagram.PNG)
 
 ### Eagle ECAD designer
+
 There are 2 Eagle project files:
+
 - [Sterownik_DC.sch](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC.sch)
 - [Sterownik_DC.brd](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC.brd)
 
