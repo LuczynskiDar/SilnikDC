@@ -47,13 +47,19 @@ There are 2 Eagle project files:
 
 ### C Code
 
-I had created 2 files,
+I created 2 files,
 
-- [constants.h](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC/constants.h), whic contains definition for an internal clock flags,
+- [constants.h](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC/constants.h), which contains definition for an internal clock flags,
 - [sterownikdc.c](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC/sterownikdc.c), which contains other methods along with main loop ```while(1)```.
 
 ### Design Verification
 
+Code verificationn was performed on eval board, all 4 swithches were working properly.
+
+- Set the dc engine to turn left, "l" on the display.
+
 ![Press S1](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/press_s1.PNG)
+
+- Set the dc engine to turn right, "r" on te display.
 
 ![Press S5](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/press_s5.PNG)
