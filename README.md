@@ -15,6 +15,8 @@ PCBA, then wirte a C program for Atmega32 to dirive a DC Enginge.
 - Interruption mechanism won't be used.
 - I will use built in Fast PWM mechanism.
 - The software will be done in C, usng Atmega Studio 7.
+- The code will be uploaded thoreugh JTAG with MK7 Dragn programmer.
+- Thce code will be validated with an eval board, Kamami ZL3.
 
 ### Block diagram
 
@@ -27,17 +29,24 @@ There are 2 Eagle project files:
 - [Sterownik_DC.sch](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC.sch)
 - [Sterownik_DC.brd](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC.brd)
 
-#### Schematic draing
+#### Schematic drawing
 
 ![Schematics](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/schematic.PNG)
 
+#### Material List (BOM)
+
+![BOM]()
+
 #### PCBA
+
 ![PCBA view](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/PCBA_1.PNG)
 
 #### PCBA Drawing
+
 ![PCBA drawing view](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/PCBA.PNG)
 
 ### Design Verification
+
 ![Press S1](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/press_s1.PNG)
 
 ![Press S5](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/press_s5.PNG)
