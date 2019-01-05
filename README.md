@@ -35,7 +35,7 @@ There are 2 Eagle project files:
 
 #### Material List (BOM)
 
-![BOM]()
+![BOM](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/bom.PNG)
 
 #### PCBA
 
