@@ -15,7 +15,7 @@ PCBA, then wirte a C program for Atmega32 to dirive a DC Enginge.
 - Interruption mechanism won't be used.
 - I will use built in Fast PWM mechanism.
 - The software will be done in C, usng Atmega Studio 7.
-- The code will be uploaded thoreugh JTAG with MK7 Dragn programmer.
+- The code will be debugged and uploaded thoreugh JTAG with MK7 Dragn programmer.
 - Thce code will be validated with an eval board, Kamami ZL3.
 
 ### Block diagram
@@ -26,7 +26,7 @@ PCBA, then wirte a C program for Atmega32 to dirive a DC Enginge.
 
 There are 2 Eagle project files:
 
-- [Sterownik_DC.sch](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC.sch)
+- [Sterownik_DC.sch](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC.sch) 
 - [Sterownik_DC.brd](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC.brd)
 
 #### Schematic drawing
@@ -37,13 +37,20 @@ There are 2 Eagle project files:
 
 ![BOM](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/bom.PNG)
 
-#### PCBA
+#### Printed wiring board
 
 ![PCBA view](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/PCBA_1.PNG)
 
-#### PCBA Drawing
+#### PWB Drawing
 
 ![PCBA drawing view](https://github.com/LuczynskiDar/SilnikDC/blob/master/Img/PCBA.PNG)
+
+### C Code
+
+I had created 2 files,
+
+- [constants.h](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC/constants.h), whic contains definition for an internal clock flags,
+- [sterownikdc.c](https://github.com/LuczynskiDar/SilnikDC/blob/master/Sterownik_DC/sterownikdc.c), which contains other methods along with main loop ```while(1)```.
 
 ### Design Verification
 
