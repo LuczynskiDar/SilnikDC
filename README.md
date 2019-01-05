@@ -12,9 +12,9 @@ PCBA, then wirte a C program for Atmega32 to dirive a DC Enginge.
 - For the project purposes will be used an mocro's internal clock,instead of using more reliable external crystal.
 - Drivig the engine will be done on the basis of 4 switches, 2 for changing engine directions (Left/Right),
   which is actually changing micro's GPIO  and 2 responsible for incrementing and decrementing PWM signal.
-- do sterowania nie zostanie wykorzystany mechanizm przerwań;
-- zostanie wykorzystany tryb Fast PWM;
-- oprogramowanie zostanie napisane w języku C;
+- Interruption mechanism won't be used.
+- I will use built in Fast PWM mechanism.
+- The software will be done in C, usng Atmega Studio 7.
 
 ### Block diagram
 
